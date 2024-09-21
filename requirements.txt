@@ -1,0 +1,7 @@
+notebook
+pandas
+numpy
+seaborn
+plotly
+joypy
+scikit-learn
