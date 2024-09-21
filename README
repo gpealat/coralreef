@@ -4,18 +4,41 @@ The project involves assessing coral reef fish species using a dataset that incl
 - **Environmental data**: Variables that could affect fish density, such as coral cover, reef complexity, sea surface temperature, net primary productivity, wave exposure, habitat types, and anthropogenic factors.
 - **Trait data**: Morphological, behavioral, and ecological traits of the fish species, including their response variables associated with relief (structural complexity of reefs) and coral cover.
 
+## Table of Contents
 
-## How to run the project?
+- [Installation](#installation)
+- [Usage](#usage)
 
-If you are using anaconda, create a virtual environment first
-```conda create --name coral```
+## Installation
+*Python Version: 3.11.7*
+1. Clone the repository
+    ```sh
+    git clone https://github.com/gpealat/coralreef
+    ```
+2. Change into the project directory
+    ```sh
+    cd coralreef
+    ```
+3. (Recommended) If you are using anaconda, create a virtual environment first
+    ```sh
+    conda create --name coral
+    ```
+4. (Recommended) Activate the virtual environment
+      ```sh
+      conda activate coral
+      ```
+5. Install the required packages
+    ```sh
+    pip install -r requirements.txt
+    ```
+6. Run Jupyter
+   ```jupyter notebook```
 
-Then activate it
-```conda activate coral```
+## Usage
 
-Then install the required packages
-```pip install -r requirements.txt```
+Run each of the notebooks in the following order
 
-You can then run jupyter
-```jupyter notebook```
-
+1. [EDA](https://github.com/gpealat/coralreef/blob/main/Notebooks/1%20-%20EDA.ipynb)
+2. [Data cleaning](https://github.com/gpealat/coralreef/blob/main/Notebooks/2%20-%20Data%20cleaning.ipynb)
+3. [Regression model](https://github.com/gpealat/coralreef/blob/main/Notebooks/3%20-%20Regression%20model.ipynb)
+4. [Classification model](https:///)
