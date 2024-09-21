@@ -47,3 +47,12 @@ Run each of the notebooks in the following order
     This notebook focuses on training regression models to predict the continuous Diversity Index.
 4. [Classification model](https:///)
     This notebook tests classification models by categorizing the Diversity Index into bins (e.g., low, medium, high) and predicting these classes.
+
+## Conclusions
+
+### Regression models
+Given the dataset, we were not able to find a good balance to fit a regression model.
+![alt text](https://github.com/gpealat/coralreef/blob/main/img/regression.png?raw=true)
+
+We can see that Random Forest does a better job at fitting the data, but this is very relative and the quality of the results are not very good.
+
