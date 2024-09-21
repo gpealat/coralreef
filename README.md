@@ -8,6 +8,7 @@ The project involves assessing coral reef fish species using a dataset that incl
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Conclusions](#conclusions)
 
 ## Installation
 *Python Version: 3.11.7*
