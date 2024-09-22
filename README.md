@@ -56,3 +56,11 @@ Given the dataset, we were not able to find a good balance to fit a regression m
 
 We can see that Random Forest does a better job at fitting the data, but this is very relative and the quality of the results are not very good.
 
+### Classification models
+The classification models, however, showed a considerable improvement in performance for most of the models.
+
+Although the problem initially seemed like a regression one, given the nature of our target feature, the results showed otherwise, which made us believe that the complexity of the data required another approach for its preparation or possibly the need for data acquisition, especially for the unbalance we have founded.
+
+Finally, among the classification models we have tried, Random Forest was the one they showed the best results and, therefore, the ideal one for this problem and this dataset. 
+![alt text](https://github.com/gpealat/coralreef/blob/main/img/f1s.png?raw=true)
+
