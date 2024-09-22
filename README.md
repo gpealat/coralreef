@@ -58,6 +58,7 @@ We can see that Random Forest does a better job at fitting the data, but this is
 
 ### Classification models
 The classification models, however, showed a considerable improvement in performance for most of the models.
+![alt text](https://github.com/gpealat/coralreef/blob/main/img/f1scores.png?raw=true)
 
 Although the problem initially seemed to be suited for regression, the results showed otherwise. This led us to believe that the complexity of the data possibly required a different approach on how to perform EDA and feature engineering or even the acquisition of additional data, particularly to address the unbalance observed.  For that reason, we decided to approach the problem as a classification task. 
 
