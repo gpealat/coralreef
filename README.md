@@ -39,14 +39,13 @@ The project involves assessing coral reef fish species using a dataset that incl
 
 Run each of the notebooks in the following order
 
-1. [EDA](https://github.com/gpealat/coralreef/blob/main/Notebooks/1%20-%20EDA.ipynb)
+1. [EDA](https://github.com/gpealat/coralreef/blob/main/Notebooks/1%20-%20EDA.ipynb) <br>
     This notebook provides an initial exploration of the dataset, including visualizations, statistical summaries, and handling missing data.
-    Data Cleaning: 2 - Data Cleaning.ipynb
-2. [Data cleaning](https://github.com/gpealat/coralreef/blob/main/Notebooks/2%20-%20Data%20cleaning.ipynb)
+2. [Data cleaning](https://github.com/gpealat/coralreef/blob/main/Notebooks/2%20-%20Data%20cleaning.ipynb) <br>
     In this notebook, the dataset is cleaned by addressing missing values, handling duplicates, and preparing the data for machine learning models.
-3. [Regression model](https://github.com/gpealat/coralreef/blob/main/Notebooks/3%20-%20Regression%20model.ipynb)
+3. [Regression model](https://github.com/gpealat/coralreef/blob/main/Notebooks/3%20-%20Regression%20model.ipynb) <br>
     This notebook focuses on training regression models to predict the continuous Diversity Index.
-4. [Classification model](https:///)
+4. [Classification model](https://github.com/gpealat/coralreef/blob/main/Notebooks/4%20-%20Classification.ipynb) <br>
     This notebook tests classification models by categorizing the Diversity Index into bins (e.g., low, medium, high) and predicting these classes.
 
 ## Conclusions
